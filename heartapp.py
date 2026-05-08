@@ -4,11 +4,11 @@ import pickle
 import numpy as np
 
 # Load model
-with open("/content/heart_model.pkl", "rb") as f:
+with open("heart_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Load scaler
-with open("/content/heart_scaler.pkl", "rb") as f:
+with open("heart_scaler.pkl", "rb") as f:
     scaler = pickle.load(f)
 
 st.title(" Heart Disease Prediction App")
